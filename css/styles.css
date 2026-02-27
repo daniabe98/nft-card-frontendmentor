@@ -25,8 +25,7 @@
     margin: 0 auto;
     position: relative; /*Se posiciona como referencia para los elementos hijos (Que utilizarán absolute)*/
     background: #14253D;
-    width: 15%;
-    aspect-ratio: 0.85;
+    width: clamp(200px, 90%, 260px); /* Medida moderna para hacerlo responsive */
     padding: 20px;
     border-radius: 16px;
     box-shadow: 
